@@ -1,0 +1,162 @@
+/*内容*/
+article{
+	color: #0f0f0f;
+	line-height: 26px;
+	padding: 5px 10px;
+}
+
+article p{
+	font-size: 14px;
+	color: #05202b;
+	width: 800px;
+	margin:0 auto;
+}
+article h1{
+	text-align:center;
+	font-size: 18px;
+	margin: 15px 0 5px;
+	font-weight: bold;
+}
+article h5{
+	text-align: center;
+	font-size: 13px;
+	line-height: 32px;
+}
+article h5 a{
+	color: #ff0000;
+	margin-left: 10px;
+}
+.cont{
+	padding-top: 20px;
+	border-top: 1px solid #ddd;
+}
+/*分页*/
+.page_b{ padding-left: 10px;}
+
+
+span.position{
+	display: block;
+	margin: 4px 0;
+	margin-left: 11px;
+	font-size: 15px;
+}
+
+/*html/news/新闻列表页*/
+.news-content{ /* width: 1200px; */margin: 0 auto;overflow: hidden;}
+/*.news-banner,.con-banner{ height: 300px; background: #399; background: url(../images/list-banner.jpg)top center no-repeat;}*/
+
+.news-banner,.con-banner{ height: 422px; background: #399; background: url(../images/show-banner.jpg)top center no-repeat;}
+.news-title{ margin:10px 0;}
+.news-title span{ color: #fff; width: 100px;height: 50px;text-align:center; line-height: 50px; display: inline-block; background: #cda06c;}
+.news-con li{ overflow: hidden; padding-bottom: 3px;}
+
+.news-con li .news-con-l img{ width: 370px;}
+.news-con-r{ width: 750px; padding-top: 10px;}
+.news-con-r h3 a{ font-weight: bold;}
+
+/*新闻列表翻页效果*/
+.pagelist{     
+	text-align: center;
+    padding: 20px;
+}
+.pagelist a,.pagelist span{
+	border:1px solid #bfbfbf;
+	height: 18px;
+	line-height: 18px;
+	width: 18px;
+	color: #444343;
+	margin:0 -4px 0 8px;
+	cursor:pointer;
+	display: inline;
+    padding: 0 5px;
+}
+
+.pagelist span:first-child{
+	width: 48px;
+	background: #ad7e47;
+	color: #fff;
+}
+.pagelist span:last-child{
+	width: 48px;
+}
+
+/*新闻内容页样式*/
+.content-content .main{
+	width: 1140px;
+}
+
+.bread-nav{ padding-top: 50px;}
+.bread-nav_new{ line-height: 50px; height: 50px; }
+.content-bread-nav a{
+	color: #fff;
+	width: 100px;
+	height: 50px;
+	text-align:center;
+	line-height: 50px;
+	display: inline-block;
+	background: #cda06c;
+}
+.content-info h3,.content-info .sub-title{ text-align:center;}
+.content-info{ padding: 20px 30px;}
+.content-content .counter-info h2,.content-content .counter-info img{ text-align: center;}
+/*修改内容页间距和导航边框问题*/
+.content-info-con{
+	text-align: left;
+}
+.content-content p{
+	line-height: 26px;
+}
+.content-content .pagelist a, .content-content .pagelist span{
+	border:none;
+}
+
+
+/*2017案例内容页*/
+.content-info .h400{ margin: 30px 0 50px;}
+.content-info .w290{ 
+	width: 160px; 
+	height: 160px; 
+	border-radius: 100%; 
+	overflow: hidden;
+	margin:0 0 0 350px;
+}
+.content-info .w290 img{     
+	width: 100%;
+    height: 100%;
+}
+.content-info .w710{
+	width: 510px;
+	margin-top: 15px;
+}
+.content-info .w710 span{ display: block;}
+
+.main-con li.t-center{ 
+	float: left;
+	width: 30%;
+	margin-right: 15px;
+	margin-bottom:25px;
+
+}
+.article-list-con{ text-align: center; padding-top: 10px; }
+
+.main-con li.t-center img{
+	width: 350px;
+	height: 216px;
+	box-shadow: 3px 1px 6px #000;
+}
+.tab-nav{ height: 40px; line-height: 40px;  margin-bottom:  10px; margin-top: 10px;}
+.tab-nav a{ color: #fff; background-color: #cda06c;  padding: 10px; }
+
+/*.content-info_new{ padding: 45px 75px 20px 75px;  }*/
+
+.content-info_new {
+    padding: 75px 51px;
+    -moz-box-shadow: 0 0 10px rgba(8,1,3,.2);
+    -webkit-box-shadow: 0 0 10px rgba(8,1,3,.2);
+    box-shadow: 0 0 10px rgba(8,1,3,.2);
+    background-color: #FFF;
+}
+.content-info_new h1{ text-align: center; padding: 0px 0px 20px 0px; }
+.content-info_new p.md{ text-align: center;  padding-bottom: 30px;}
+.content-bread-nav_new{ height:30px;   }
+.content-info-con_new p{ text-indent: 2em;  line-height: 2em;  font-size: 16px;}

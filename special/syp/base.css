@@ -1,0 +1,68 @@
+ /* CSS Document */
+  @charset "utf-8";
+  html,body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,input,button,textarea,p,span,table,th,td,from,img{margin:0;padding:0;}
+  body,input,button,select,textarea{font-family:"微软雅黑";font-size: 14px;}
+  table{border-collapse:collapse;border-spacing:0;}
+  img,a{border:0;}
+  a{color:#333;outline:medium none;text-decoration:none;star:expression(this.onFocus=this.blur());}
+  a:hover{text-decoration:none;}
+  label{cursor:pointer;}
+  ul li,ol li,li{list-style:none;}
+  em,cite,i{font-style:normal;}
+  em,i,b,h5,h6,h3,h4{ font-style:normal; font-weight:normal;}
+  /*p{word-break: break-all;line-height: 26px;}*/
+
+  /* 去除Chrome等浏览器文本框默认发光边框 */
+  input:focus,select, textarea:focus {outline: none;}
+  /* 去除IE10+浏览器文本框后面的小叉叉 */
+  /* input::-ms-clear {display: none;} */
+  /* 禁止多行文本框textarea拖拽 */
+  textarea {resize: none;}
+
+  /* 避免因子元素浮动而导致的父元素高度缺失能问题 */
+  .cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .cl { zoom: 1; }
+  /* 浮动 */
+  .fl { float: left !important; }
+  .fr { float: right !important; }
+  /* 鼠标样式，可以根据需要按序添加 */
+  .cur1 { cursor: pointer; }
+  /* 显示/隐藏 */
+  .show { display: block !important; }
+  .hide { display: none !important; }
+  .relative{ position: relative;}
+  .absolute{ position: absolute;}
+  .txt-center{ text-align: center;}
+  /*公共样式*/
+  .main{ 
+    width: 1200px;
+    margin: 0 auto;
+    /* overflow: hidden; 0722修改*/ 
+  }
+  .bg-00{ background:#0b9800;}
+  .color_c1{ color:#c19763;}
+  .btn{ display: block;}
+  .color_50{ color:#0b9800;}
+  .color_55{ color:#5595bf;}
+  .color_de{ color:#dedede;}
+  .font40{ font-size: 40px; color:#333;}
+  .font32{ font-size: 32px;}
+  .font36 {font-size: 36px;}
+  .font30{ font-size: 30px; }
+  .font26 {
+    font-size: 26px;
+    padding-bottom: 20px;
+  }
+  .mt15 {margin-top: 15px;}
+  .mb15 {margin-bottom: 15px;}
+  .p15{ padding: 15px;}
+  .clear{clear: both;}
+  .bl{ border-left: 1px solid #333;}
+  .p510{ padding: 5px 10px;}
+  .pb30{ padding-bottom: 30px;}
+  
+/*公共样式*/
+
+
+
+/*修改首页滚动时页面问题*/
+body{min-width: 1200px;}

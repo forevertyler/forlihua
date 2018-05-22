@@ -1,0 +1,52 @@
+body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,
+form, fieldset, legend, button, input, textarea,th, td,img{border:medium none;margin: 0;padding: 0;list-style-type: none;}
+body,button, input, select, textarea {font: 12px/1.5 "msyhl422459","微软雅黑",Srial, Verdana, Geneva, sans-serif, tahoma, helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 { font-size: 100%;font-weight:normal; }
+em{font-style:normal;}
+ul, ol,{ list-style: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+img{ border:0px;}
+body,.ui-overlay-h{margin:0 auto;position:relative;background-color:#fff;color:#666;}
+input, img {vertical-align: middle;}
+body,html{min-width:1200px;max-width:100%;margin:0 auto;-moz-transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;transition:all 0.3s ease-out 0s;}
+img {border:none;vertical-align:top;}
+* {margin:0;padding:0;text-shadow:none;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.poa{position: absolute;}
+.por{position: relative;}
+.clear{clear: both;}
+.dn{display: none;}
+.gray { 
+-webkit-filter: grayscale(100%); 
+-moz-filter: grayscale(100%); 
+-ms-filter: grayscale(100%); 
+-o-filter: grayscale(100%); 
+filter: grayscale(100%); 
+filter: gray; 
+} 
+.gray:hover{
+	-webkit-filter: grayscale(0); 
+	-moz-filter: grayscale(0); 
+	-ms-filter: grayscale(0); 
+	-o-filter: grayscale(0); 
+	filter: grayscale(0); 
+	filter: ; 
+}
+.stage:hover {
+	-moz-box-shadow:0 0 0px rgba(0,1,3,.1);
+	-webkit-box-shadow:0 0 50px rgba(4,10,5,.2);
+	box-shadow:0 0 25px rgba(0,0,0,.2);
+	z-index:10;
+	-moz-transform:translate3d(0,-2px,0);
+	-ms-transform:translate3d(0,-2px,0);
+	-o-transform:translate3d(0,-2px,0);
+	-webkit-transform:translate3d(0,-2px,0);
+	transform:translate3d(0,-2px,0);
+}
+.stage{
+	position:relative;
+	-moz-transition:all 0.2s linear 0s;
+	-webkit-transition:all 0.2s linear 0s;
+	transition:all 0.2s linear 0s;
+	position:relative;overflow:hidden;
+}
